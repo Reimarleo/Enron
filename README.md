@@ -9,7 +9,7 @@ information about senders, recipients, timestamps, subjects and the content of t
 messages themselves.
 
 ## Part 1 of the process
-The dataset is parsed and the following filed are created into a pandas data frame.
+The dataset is parsed and the following filed are created into a pandas dataframe.
 
 - (a) Date sent
 - (b) Time sent
@@ -20,6 +20,14 @@ The dataset is parsed and the following filed are created into a pandas data fra
 
 The data is then written out as a CSV file.
 
-# Part 2 of the process
+## Part 2 of the process
 
+Additional information is added to the dataset to allow extraction of ordered email conversations.
+
+- (a) datetime filed to sort the dataframe chronologically
+- (b) Sorted list of participants (senter + recipients) in each email
+- (c) Unique ID of conversation, based on the combination of sorted list of participants and subject
+
+This is not a perfect method as it doesn't account for email addresses being added or removed from a conversation. 
+It is also not abvious what constitutes a conversation.
 
