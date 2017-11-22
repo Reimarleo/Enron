@@ -31,5 +31,11 @@ Additional information is added to the dataset to allow extraction of ordered em
 This is not a perfect method as it doesn't account for email addresses being added or removed from a conversation. 
 It is also not abvious what constitutes a conversation.
 
-## Language
+## Language and libraries
 Python 3.6
+
+- os
+- re
+- datetime
+- pandas
+
