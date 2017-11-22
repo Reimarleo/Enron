@@ -18,7 +18,7 @@ The dataset is parsed and the following filed are created into a pandas datafram
 - (e) Subject
 - (f) Content
 
-The data is then written out as a CSV file.
+The data is then written out as a JSON file.
 
 ## Part 2 of the process
 
@@ -31,3 +31,5 @@ Additional information is added to the dataset to allow extraction of ordered em
 This is not a perfect method as it doesn't account for email addresses being added or removed from a conversation. 
 It is also not abvious what constitutes a conversation.
 
+## Language
+Python 3.6
