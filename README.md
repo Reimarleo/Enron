@@ -31,6 +31,13 @@ Additional information is added to the dataset to allow extraction of ordered em
 This is not a perfect method as it doesn't account for email addresses being added or removed from a conversation. 
 It is also not abvious what constitutes a conversation.
 
+## Running the script
+
+The script require the input data file to be named emails.csv and to be located in the same directory where the py file is located. Also the outputs will be written in the same direcory. The outputs are:
+
+1. A JSON file with the processed data
+2. A conversation extracted from the data and written in chronological orl order
+
 ## Language and libraries
 Python 3.6
 
