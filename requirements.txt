@@ -1,0 +1,4 @@
+# The only library that doesn't come with the standard installation of Python is pandas.
+# There is no need to install it if using the Anaconda distribution
+
+pandas
